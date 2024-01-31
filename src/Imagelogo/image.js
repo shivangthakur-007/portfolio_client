@@ -20,7 +20,7 @@ export let Image = [
     alt: "MONGO DB",
   },
   {
-    img: "./../../assets/sql.png",
+    img: "https://cdn-icons-png.freepik.com/256/3161/3161115.png?ga=GA1.1.1223127360.1706710829&semt=ais",
     alt: "SQL",
   },
   {
@@ -40,18 +40,18 @@ export let Image = [
     alt: "REACT",
   },
   {
-    img: "./../../assets/redux.png",
+    img: "https://cdn.worldvectorlogo.com/logos/redux.svg",
     alt: "REDUX",
   },
   {
-    img: "./../../assets/C++.png",
+    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/306px-ISO_C%2B%2B_Logo.svg.png",
     alt: "C++",
   },
 ];
 
 export let tool = [
   {
-    img: "./../../assets/vscode.png",
+    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/1024px-Visual_Studio_Code_1.35_icon.svg.png",
     alt: "VSCODE",
   },
   {
@@ -75,11 +75,11 @@ export let tool = [
     alt: "CLOUDINARY",
   },
   {
-    img: "https://www.vectorlogo.zone/logos/netlify/netlify-ar21.svg",
+    img: "https://upload.wikimedia.org/wikipedia/commons/b/b8/Netlify_logo.svg",
     alt: "NETLIFY",
   },
   {
-    img: "./../../assets/render.png",
+    img: "https://seeklogo.com/images/R/render-logo-818C47ACCA-seeklogo.com.png",
     alt: "RENDER",
   },
 ];
