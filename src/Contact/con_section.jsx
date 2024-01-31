@@ -11,7 +11,9 @@ const About_skills = () => {
   return (
     <div className="py-[19px]">
       <div className="flex flex-col gap-2 items-center my-8" id="about">
-        <h1 className="text-white text-5xl hover:text-blue-400 font-semibold my-2">ABOUT ME</h1>
+        <h1 className="text-white text-5xl hover:text-blue-400 font-semibold my-2">
+          ABOUT ME
+        </h1>
         <div className="grid grid-cols-2 justify-center">
           <div className="flex justify-around  ">
             <img
@@ -40,7 +42,9 @@ const About_skills = () => {
         </div>
       </div>
       <div className="flex flex-col gap-2 items-center " id="skills">
-        <h1 className="text-white text-5xl hover:text-blue-400 font-semibold my-2">Skills</h1>
+        <h1 className="text-white text-5xl hover:text-blue-400 font-semibold my-2">
+          Skills
+        </h1>
         <div className="grid grid-cols-4 gap-10 my-2 items-center">
           {img.map((e, i) => {
             return (
@@ -55,7 +59,9 @@ const About_skills = () => {
         </div>
       </div>
       <div className="flex flex-col items-center m-9">
-        <h1 className="text-white text-5xl hover:text-blue-400 font-semibold my-2">TOOLS</h1>
+        <h1 className="text-white text-5xl hover:text-blue-400 font-semibold my-2">
+          TOOLS
+        </h1>
         <div className="grid grid-cols-4 gap-8 m-2 ">
           {tool_new.map((e, i) => {
             return (

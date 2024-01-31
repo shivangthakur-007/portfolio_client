@@ -33,9 +33,12 @@ function ContactMain() {
     }
 
     try {
-      const response = axios.post("http://localhost:5000/api/vi/contact", {
-        ...userInput,
-      });
+      const response = axios.post(
+        "https://portfolio-server-sp28.onrender.com/api/vi/contact",
+        {
+          ...userInput,
+        }
+      );
       toast.promise(response, {
         loading: "Submitting your message",
         success: "form submitted successfully",
