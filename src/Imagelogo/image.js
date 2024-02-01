@@ -71,7 +71,7 @@ export let tool = [
     alt: "CANVA",
   },
   {
-    img: "https://www.vectorlogo.zone/logos/cloudifyco/cloudifyco-ar21.svg",
+    img: "https://upload.wikimedia.org/wikipedia/commons/b/b2/Cloudinary_logo.svg",
     alt: "CLOUDINARY",
   },
   {
@@ -83,3 +83,38 @@ export let tool = [
     alt: "RENDER",
   },
 ];
+
+// export const local_image=[
+//   {
+//     img: "./../../assets/Snapchat-95776787.jpg",
+//     alt: "assets"
+//   },
+//   {
+//     img: "./../../assets/Snapchat-95776787.jpg",
+//     alt: "assets"
+//   },
+//   {
+//     img: "./../../assets/Snapchat-95776787.jpg",
+//     alt: "assets"
+//   },
+//   {
+//     img: "./../../assets/Snapchat-95776787.jpg",
+//     alt: "assets"
+//   },
+//   {
+//     img: "./../../assets/Snapchat-95776787.jpg",
+//     alt: "assets"
+//   },
+//   {
+//     img: "./../../assets/Snapchat-95776787.jpg",
+//     alt: "assets"
+//   },
+//   {
+//     img: "./../../assets/Snapchat-95776787.jpg",
+//     alt: "assets"
+//   },
+//   {
+//     img: "./../../assets/Snapchat-95776787.jpg",
+//     alt: "assets"
+//   },
+// ]

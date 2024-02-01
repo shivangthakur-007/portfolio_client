@@ -4,17 +4,13 @@ import { Image, tool } from "../Imagelogo/image.js";
 const About_skills = () => {
   let img = Image;
   let tool_new = tool;
-  //   let a=img.map((e)=>{
-  //     return e.img
-  //   })
-  //   console.log(a)
   return (
     <div className="py-[19px]">
       <div className="flex flex-col gap-2 items-center my-8" id="about">
         <h1 className="text-white text-5xl hover:text-blue-400 font-semibold my-2">
           ABOUT ME
         </h1>
-        <div className="grid grid-cols-2 justify-center">
+        <div className="grid grid-cols-2 justify-center my-5">
           <div className="flex justify-around  ">
             <img
               src="./../../assets/Snapchat-95776787.jpg"
@@ -24,19 +20,23 @@ const About_skills = () => {
           </div>
           <div className="flex justify-start items-center">
             <h2 className="text-white text-2xl font-medium text-start">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio
-              illum officia, perferendis voluptates eum consequatur earum,
-              temporibus commodi dolorum velit minus incidunt ipsa assumenda
-              error reiciendis pariatur. Molestiae eligendi harum voluptatem
-              iusto autem reprehenderit repudiandae? Incidunt quis et nostrum
-              amet molestiae enim ducimus aspernatur. Dolore at possimus,
-              repellat accusantium pariatur dolores distinctio quibusdam
-              perspiciatis tenetur architecto dignissimos numquam aspernatur ea
-              quod ipsum fuga aliquid nesciunt culpa accusamus incidunt, nam
-              blanditiis. Minus provident nam harum in fuga debitis deleniti
-              saepe beatae distinctio possimus magni quia ullam asperiores
-              officiis consequuntur, esse, quam soluta consequatur dicta?
-              Temporibus nemo consequuntur doloremque, autem eligendi minima!
+              As a Full Stack Web Developer, I am a student of BCA at Glocal
+              University. I have a three-year journey in web development, and I
+              am eager to learn web development frameworks. While continuing on
+              this journey, I aspire to learn other frameworks in web
+              development. I completed a 10-month Full Stack Web Development
+              course with PW Skills, where I acquired new key points in
+              development. Towards the end of the year, I specialized in
+              MongoDB, SQL, JavaScript, Node.js, Express.js, React.js, basically
+              MERN, and Redux. I gained knowledge in various tools such as Git,
+              GitHub, code editors like VSCode and Replit, Canva, Netlify,
+              Cloudinary, and Render. I have one year of experience in MERN and
+              achieved three stars on HackerRank in SQL. I am continuously
+              learning and improving in various technologies, enjoying the
+              intellectual challenge of coding and debugging. I find
+              satisfaction in turning ideas into functional, interactive
+              websites and developing visually appealing and user-friendly
+              interfaces.
             </h2>
           </div>
         </div>
@@ -45,7 +45,7 @@ const About_skills = () => {
         <h1 className="text-white text-5xl hover:text-blue-400 font-semibold my-2">
           Skills
         </h1>
-        <div className="grid grid-cols-4 gap-10 my-2 items-center">
+        <div className="grid grid-cols-4 gap-10 my-2 items-center my-5">
           {img.map((e, i) => {
             return (
               <img
@@ -62,7 +62,7 @@ const About_skills = () => {
         <h1 className="text-white text-5xl hover:text-blue-400 font-semibold my-2">
           TOOLS
         </h1>
-        <div className="grid grid-cols-4 gap-8 m-2 ">
+        <div className="grid grid-cols-4 gap-8 mx-2 my-5">
           {tool_new.map((e, i) => {
             return (
               <img

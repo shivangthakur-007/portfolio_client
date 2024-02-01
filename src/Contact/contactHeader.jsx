@@ -22,7 +22,7 @@ function ContactHeader() {
               SKILLS
             </li>
           </a>
-          <a href="">
+          <a href="#projects">
             <li className="hover:bg-[#b363f9] text-white m-2 px-3 py-1 text-lg font-semibold rounded-md">
               PROJECTS
             </li>

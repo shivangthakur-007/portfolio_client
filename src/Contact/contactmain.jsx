@@ -63,13 +63,13 @@ function ContactMain() {
 
   return (
     <div className="py-[19px]">
-      <div className="flex flex-col items-center" id="project">
+      <div className="flex flex-col items-center" id="projects">
         <div>
           <h1 className="text-white text-5xl hover:text-blue-400 font-semibold">
             Projects
           </h1>
         </div>
-        <div className="grid grid-cols-3 gap-10">
+        <div className="grid grid-cols-3 gap-10 my-9">
           <div className="flex flex-col items-center">
             <a href="https://edupw-skills.netlify.app/">
               <img
@@ -141,7 +141,7 @@ function ContactMain() {
           <form
             noValidate
             onSubmit={onFormSubmit}
-            className="flex flex-col gap-2 items-center text-xl p-5 text-white  border-[1px] border-white drop-shadow-[0_1px_3px_1px_rgba(60, 64, 67, 0.15)] rounded-md"
+            className="flex flex-col gap-2 items-center text-xl p-5 text-white  border-[1px] border-white drop-shadow-[0_1px_3px_1px_rgba(60, 64, 67, 0.15)] rounded-md my-5"
           >
             <input
               className="bg-transparent border-2 border-white w-[100%] my-2 rounded-lg text-md"
