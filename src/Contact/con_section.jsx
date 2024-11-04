@@ -1,5 +1,6 @@
 import React, { useContext } from "react";
 import { Image, tool } from "../Imagelogo/image.js";
+import Snapchatimg from "../../assets/Snapchat-95776787.jpg"
 
 const About_skills = () => {
   let img = Image;
@@ -13,13 +14,13 @@ const About_skills = () => {
         <div className="grid grid-cols-2 justify-center my-5">
           <div className="flex justify-around  ">
             <img
-              src="./../../assets/Snapchat-95776787.jpg"
+              src={Snapchatimg}
               className="w-[30vw] rounded-lg"
               alt="profile"
             />
           </div>
-          <div className="flex justify-start items-center">
-            <h2 className="text-white text-2xl font-medium text-start">
+          <div className="flex justify-start items-center mr-10">
+            <h2 className="text-white text-2xl font-medium text-justify">
               As a Full Stack Web Developer, I am a student of BCA at Glocal
               University. I have a three-year journey in web development, and I
               am eager to learn web development frameworks. While continuing on
@@ -45,13 +46,13 @@ const About_skills = () => {
         <h1 className="text-white text-5xl hover:text-blue-400 font-semibold my-2">
           Skills
         </h1>
-        <div className="grid grid-cols-4 gap-10 my-2 items-center my-5">
+        <div className="grid grid-cols-4 gap-10 items-center my-5">
           {img.map((e, i) => {
             return (
               <img
                 src={e.img}
                 key={i}
-                className="w-[200px] h-[150px] border-2 rounded-md hover:border-black bg-white"
+                className="w-[200px] h-[150px] border-2 rounded-md hover:border-black bg-white bg-center"
                 alt={e.alt}
               />
             );
@@ -68,7 +69,7 @@ const About_skills = () => {
               <img
                 src={e.img}
                 key={i}
-                className="w-[200px] hover:border-black h-[150px] border-2 rounded-md bg-white"
+                className="w-[200px] hover:border-black bg-cover h-[150px] border-2 rounded-md bg-white p-3"
                 alt={e.alt}
               />
             );

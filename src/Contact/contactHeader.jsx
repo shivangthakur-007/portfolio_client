@@ -1,4 +1,6 @@
 import React from "react";
+import PCimage from "./../../assets/pc-image.png";
+import Wavinghand from "./../../assets/waving-hand.png";
 
 function ContactHeader() {
   return (
@@ -38,25 +40,13 @@ function ContactHeader() {
       <div className="flex justify-center items-center">
         <div className="flex flex-col gap-1">
           <div className="flex gap-1 items-center">
-            <img
-              src="./../../assets/waving-hand.png"
-              className="h-[35px]"
-              alt="waving_hand"
-            />
+            <img src={Wavinghand} className="h-[35px]" alt="waving_hand" />
             <h1 className="font-medium text-3xl text-white">Hi Everyone</h1>
           </div>
-          <h1 className="font-medium text-3xl text-white">
-            Adarsh Singh
-          </h1>
-          <h1 className="font-medium text-3xl text-yellow-500">
-            Developer
-          </h1>
+          <h1 className="font-medium text-3xl text-white">Adarsh Singh</h1>
+          <h1 className="font-medium text-3xl text-yellow-500">Developer</h1>
         </div>
-        <img
-          src="./../../assets/pc-image.png"
-          className="h-[500px]"
-          alt="computer"
-        />
+        <img src={PCimage} className="h-[500px]" alt="computer" />
       </div>
     </div>
   );

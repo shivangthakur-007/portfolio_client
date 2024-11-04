@@ -2,6 +2,9 @@ import { useState } from "react";
 import toast from "react-hot-toast";
 import { isEmail } from "./helper/RegexMatcher.js";
 import axios from "axios";
+import Projectimg from "./../../assets/clg.png";
+import Adarshlinkedin from "./../../assets/linkedin.png";
+import Adarshgithub from "./../../assets/github.png";
 
 function ContactMain() {
   const [userInput, setUserInput] = useState({
@@ -69,7 +72,19 @@ function ContactMain() {
             Projects
           </h1>
         </div>
-        <div className="grid grid-cols-3 gap-10 my-9">
+        <div className="grid grid-cols-2 gap-10 my-9">
+          <div className="flex flex-col items-center">
+            <a href="https://adarsh-grocery-store.netlify.app/">
+              <img src={Projectimg} className="h-[250px]" alt="project" />
+            </a>
+            <h1 className="text-white text-xl font-lg">Grocery Store</h1>
+          </div>
+          <div className="flex flex-col items-center">
+            <a href="https://newsapsite.netlify.app/">
+              <img src={Projectimg} className="h-[250px]" alt="project" />
+            </a>
+            <h1 className="text-white text-xl font-lg">News Portal</h1>
+          </div>
           <div className="flex flex-col items-center">
             <a href="https://edupw-skills.netlify.app/">
               <img
@@ -82,51 +97,31 @@ function ContactMain() {
           </div>
           <div className="flex flex-col items-center">
             <a href="https://combonation.netlify.app/">
-              <img
-                src="./../../assets/clg.png"
-                className="h-[250px]"
-                alt="project"
-              />
+              <img src={Projectimg} className="h-[250px]" alt="project" />
             </a>
             <h1 className="text-white text-xl font-lg">Combonation</h1>
           </div>
           <div className="flex flex-col items-center">
             <a href="https://pok-e-ashmon.netlify.app">
-              <img
-                src="./../../assets/clg.png"
-                className="h-[250px]"
-                alt="project"
-              />
+              <img src={Projectimg} className="h-[250px]" alt="project" />
             </a>
             <h1 className="text-white text-xl font-lg">Pokemon</h1>
           </div>
           <div className="flex flex-col items-center">
             <a href="https://foodies579.netlify.app">
-              <img
-                src="./../../assets/clg.png"
-                className="h-[250px]"
-                alt="project"
-              />
+              <img src={Projectimg} className="h-[250px]" alt="project" />
             </a>
             <h1 className="text-white text-xl font-lg">Foodies</h1>
           </div>
           <div className="flex flex-col items-center">
             <a href="https://sem4project.netlify.app/">
-              <img
-                src="./../../assets/clg.png"
-                className="h-[250px]"
-                alt="project"
-              />
+              <img src={Projectimg} className="h-[250px]" alt="project" />
             </a>
             <h1 className="text-white text-xl font-lg">College Dekho</h1>
           </div>
           <div className="flex flex-col items-center">
             <a href="https://react-tic.netlify.app">
-              <img
-                src="./../../assets/clg.png"
-                className="h-[250px]"
-                alt="project"
-              />
+              <img src={Projectimg} className="h-[250px]" alt="project" />
             </a>
             <h1 className="text-white text-xl font-lg">Tic-tac-toe</h1>
           </div>
@@ -182,19 +177,11 @@ function ContactMain() {
           </form>
         </div>
         <div className="flex gap-3 justify-center my-4 items-center">
-          <a href="">
-            <img
-              src="./../../assets/github.png"
-              className="h-[30px]"
-              alt="gitub"
-            />
+          <a href="https://github.com/shivangthakur-007/">
+            <img src={Adarshgithub} className="h-[30px]" alt="gitub" />
           </a>
-          <a href="">
-            <img
-              src="./../../assets/linkedin.png"
-              className="h-[30px]"
-              alt="linkedin"
-            />
+          <a href="https://www.linkedin.com/in/adarsh-pratap-singh-a850b5231/">
+            <img src={Adarshlinkedin} className="h-[30px]" alt="linkedin" />
           </a>
         </div>
       </div>
