@@ -87,11 +87,7 @@ function ContactMain() {
           </div>
           <div className="flex flex-col items-center">
             <a href="https://edupw-skills.netlify.app/">
-              <img
-                src="./../../assets/clg.png"
-                className="h-[250px]"
-                alt="project"
-              />
+              <img src={Projectimg} className="h-[250px]" alt="project" />
             </a>
             <h1 className="text-white text-xl font-lg">LMS</h1>
           </div>

@@ -29,7 +29,7 @@ const About_skills = () => {
               course with PW Skills, where I acquired new key points in
               development. Towards the end of the year, I specialized in
               MongoDB, SQL, JavaScript, Node.js, Express.js, React.js, basically
-              MERN, and Redux. I gained knowledge in various tools such as Git,
+              MERN, react-query, Redux & next.js. I gained knowledge in various tools such as Git,
               GitHub, code editors like VSCode and Replit, Canva, Netlify,
               Cloudinary, and Render. I have one year of experience in MERN and
               achieved three stars on HackerRank in SQL. I am continuously
