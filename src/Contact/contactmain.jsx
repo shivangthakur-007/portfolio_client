@@ -2,6 +2,7 @@ import { useState } from "react";
 import toast from "react-hot-toast";
 import { isEmail } from "./helper/RegexMatcher.js";
 import axios from "axios";
+import {useNavigate} from "react-router"
 import Projectimg from "./../../assets/clg.png";
 import Adarshlinkedin from "./../../assets/linkedin.png";
 import Adarshgithub from "./../../assets/github.png";
@@ -12,6 +13,8 @@ function ContactMain() {
     email: "",
     message: "",
   });
+
+  // const navigate=useNavigate();
 
   function handleInputChange(e) {
     const { name, value } = e.target;
@@ -74,6 +77,12 @@ function ContactMain() {
         </div>
         <div className="grid grid-cols-2 gap-10 my-9">
           <div className="flex flex-col items-center">
+            <a href="https://food-delivery-frontend-opgw.onrender.com/">
+              <img src={Projectimg} className="h-[250px]" alt="project" />
+            </a>
+            <h1 className="text-white text-xl font-lg">Tomato</h1>
+          </div>
+          <div className="flex flex-col items-center">
             <a href="https://adarsh-grocery-store.netlify.app/">
               <img src={Projectimg} className="h-[250px]" alt="project" />
             </a>
@@ -91,12 +100,12 @@ function ContactMain() {
             </a>
             <h1 className="text-white text-xl font-lg">LMS</h1>
           </div>
-          <div className="flex flex-col items-center">
+          {/* <div className="flex flex-col items-center">
             <a href="https://combonation.netlify.app/">
               <img src={Projectimg} className="h-[250px]" alt="project" />
             </a>
             <h1 className="text-white text-xl font-lg">Combonation</h1>
-          </div>
+          </div> */}
           <div className="flex flex-col items-center">
             <a href="https://pok-e-ashmon.netlify.app">
               <img src={Projectimg} className="h-[250px]" alt="project" />
@@ -123,7 +132,11 @@ function ContactMain() {
           </div>
         </div>
       </div>
-
+      {/* <div>
+        <span>
+          Some More exciting small Projects <a href="../SmallGallery/SmallGallery.jsx">Click Here</a>
+        </span>
+      </div> */}
       <div className="my-[20px]" id="contact">
         <div className="flex flex-col items-center text-xl">
           <h1 className="text-white text-5xl font-semibold my-4 hover:text-blue-400">
