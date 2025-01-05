@@ -7,7 +7,7 @@ import ContactMain from "./Contact/contactmain";
 
 function App() {
   return (
-    <div className="bg-[#01071E] w-[100vw]">
+    <div className="bg-[#01071E]">
       <ContactHeader />
       <About_skills />
       <ContactMain />

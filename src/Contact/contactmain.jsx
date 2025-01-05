@@ -2,7 +2,6 @@ import { useState } from "react";
 import toast from "react-hot-toast";
 import { isEmail } from "./helper/RegexMatcher.js";
 import axios from "axios";
-import {useNavigate} from "react-router"
 import Projectimg from "./../../assets/clg.png";
 import Adarshlinkedin from "./../../assets/linkedin.png";
 import Adarshgithub from "./../../assets/github.png";

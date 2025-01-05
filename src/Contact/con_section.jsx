@@ -15,7 +15,7 @@ const About_skills = () => {
           <div className="flex justify-around  ">
             <img
               src={Snapchatimg}
-              className="w-[30vw] rounded-lg"
+              className="w-[30vw] rounded-[50%]"
               alt="profile"
             />
           </div>
